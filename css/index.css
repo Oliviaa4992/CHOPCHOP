@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* background-color: bisque; */
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/* ============= header ============== */
+header {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    background-color: black;
+}
+.menu-logo-flexbox {
+    display: flex;
+    /* justify-content: space-between */
+}
+/* left-menu */
+.left-menu,
+.right-menu {
+    width: 500px;
+    padding-top:39px;
+}
+.left-menu li {
+    float: left;
+}
+.left-menu li > a {
+    color: white;
+    font-size: 14px;
+}
+.left-menu li:first-child > a,
+.left-menu li:nth-child(2) > a {
+    padding-right:45px;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 33px;
+}
+.logo h1 > a {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* right-menu */
+.right-menu ul {
+    display: flex;
+    justify-content: right;
+}
+
+.right-menu li > a {
+    color:white;
+    font-size: 14px;
+    padding-left: 45px;
+}
+
+/* ========== main ============ */
+.main-img {
+    background-color: black;
+}
+.main-img img {
+    width: 100%;
+}
+.main-img .main-text {
+    position: absolute;
+    left: 442px;
+    top: 278px;
+    color: white;
+}
+
+.main-text p {
+    float: left;
+    font-size: 24px;
+    padding-bottom: 33px;
+}
+
+.main-text h2 {
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+
+.main-text a {
+    width: 120px; height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 15px 15px;
+    text-align: center;
+}
+
+
+.slide-box {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+.slide-box > a {
+    display: inline-block;
+    width:10px; height: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+    background-color: white;
+    border: 1px solid rgb(131, 131, 131);
+}
+
+.slide-box a:first-child {
+    background-color: grey;
+} 
+
+
+
+/* ============ about ================ */
+
+.about h3 {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 480px;
+    margin-top: 160px;
+}
+.arrow {
+    position: absolute;
+    right: 0; top: 195px;
+}
+.arrow a {
+    font-size: 14px;
+}
+
+.about-all {
+    display: flex;
+    width: 100%;
+}
+
+.left-pic {
+    width: 33%;
+}
+
+.left-pic img {
+    margin-top: 160px;
+    width: 400px; height: 586px;
+}
+
+
+/* right-box */
+.right-box {
+    display: flex;
+    width: 59%; height: 520px;
+}
+
+.right-box img {
+    width: 477px;
+    height: 517px;
+    border: 2px solid rgb(163, 163, 163);
+}
+
+.right-pic1 {
+    position: absolute;
+    right:0; top: 230px;
+}
+.right-pic2 {
+    position: absolute;
+    right:112px; top: 230px;
+}
+.right-pic3 {
+    position: absolute;
+    left: 480px; top: 230px;
+}
