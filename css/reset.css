@@ -6,9 +6,25 @@
     box-sizing: border-box;
 }
 
+/* @import url('https://webfontworld.github.io/SCoreDream/SCoreDream.css');
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-style: normal; 
+    font-weight: 400; 
+    src: url('../font/SCoreDream.eot'); 
+    src: local('SCoreDream'),
+    url('../font/SCoreDream.eot?#iefix') format('embedded-opentype'), 
+    url('../font/SCoreDream.woff2') format('woff2'), 
+    url('../font/SCoreDream.woff') format('woff'), 
+    url('../font/SCoreDream.ttf') format('truetype'), 
+    url('../font/SCoreDream.svg#KakaoaLt') format('svg');
+} */
+
+
 html,
 body {
-    font: 16px '맑은 고딕';
+    font: 16px 'Gulim';
     color: #333;
 }
 
@@ -32,6 +48,25 @@ h1 {
 h2 {
     font-size: 24px;
 }
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 24px;
+    /* color: white; */
+}
+
 
 header,
 nav,
